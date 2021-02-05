@@ -1,0 +1,31 @@
+body{
+  font-family: sans-serif;
+  text-decoration-style: solid;
+  color: black;
+  margin: 20px;
+  font-weight: 50rem; 
+  background: lightcyan;
+}
+
+.heading{
+  color: darkblue;
+  font-size: 3rem;
+}
+
+.paragraph{
+  color: gray;
+}
+
+.food-images {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: black;
+  width: 1300px;
+}
+
+img{
+  height: 400px;
+  width:400px;
+  margin: 20px 10px 20px 20px;
+  object-fit: cover;
+}
