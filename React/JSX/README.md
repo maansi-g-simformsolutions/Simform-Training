@@ -1,2 +1,2 @@
 # React-practice
-React JSX practice with implementation
+Created with CodeSandbox
