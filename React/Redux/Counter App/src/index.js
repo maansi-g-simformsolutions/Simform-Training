@@ -1,32 +1,14 @@
-import React,{PureComponent} from 'react';
-import { render } from 'react-dom';
+import React from 'react';
+import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
-import './styles.css';
+import store from './store';
+import './style.css';
 
-import Counter from './components/Counter';
-import History from './components/History';
-import reducers from './reducers';
+import CounterPage from './CounterPage';
 
-const styles = {
-  fontFamily: 'sans-serif',
-  textAlign: 'center',
-};
-
-class App extends PureComponent {
-  render() {
-    return (
-      <Provider store={createStore(reducers)}>
-        <div style={styles}>
-          <h2>Start editing to see some magic happen {'\u2728'}</h2>
-          <div>
-            <Counter />
-            <History />
-          </div>
-        </div>
-      </Provider>
-    );
-  }
-}
-
-render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <Provider store={store}>
+    <CounterPage />
+  </Provider>,
+  document.getElementById('root')
+);

@@ -1,23 +1,14 @@
 {
-  "name": "simple-react-redux-counter-example",
+  "name": "redux-pagestate-counter-example-forked",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple page with a counter written with redux-pagestate.",
   "keywords": [],
-  "homepage": "https://codesandbox.io/s/new",
-  "main": "src/index.js",
+  "main": "index.js",
   "dependencies": {
-    "prop-types": "15.6.1",
-    "react": "16.2.0",
-    "react-dom": "16.2.0",
-    "react-redux": "5.0.7",
-    "react-scripts": "1.1.0",
-    "redux": "3.7.2"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "react": "15.5.3",
+    "react-dom": "15.5.3",
+    "react-redux": "5.0.5",
+    "redux": "3.7.1",
+    "redux-pagestate": "0.0.3"
   }
 }
