@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body{
+  background: lightcyan;
+}
+
+.app-heading{
+  font-size: 55px;
+}
+
+p{
+  color: purple;
+  font-size: 20px;
+}
+
+.avatar img{
+  width: 200px;
+  height: 200px;
+}
+
+.work{
+  color: white;
+  font-size: 20px;
+}
+
+button{
+    color: purple;
+    padding: 10px;
+    font-size: 20px;
+}
